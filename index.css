@@ -1,0 +1,164 @@
+:root{
+    --cor-orange: hsl(35, 77%, 62%);
+    --cor-red:hsl(5, 85%, 63%);
+    --cor-white: hsl(36, 100%, 99%);
+    --cor-blue: hsl(233, 8%, 79%);
+    --cor-dark-gray: hsl(236, 13%, 42%);
+    --cor-very-blue: hsl(240, 100%, 5%);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 40px;
+
+    
+}
+
+.imgg {
+    margin-right: auto;
+}
+.img2{
+    width: 95%;
+}
+nav{
+    /* margin-bottom: -80px; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+nav  a{
+    text-decoration: none;
+    color: var(--cor-dark-gray);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: var(--cor-orange);
+    cursor: pointer;
+}
+aside  a{
+    text-decoration: none;
+    color: var(--cor-white);
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+button{
+    margin: 17px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: var(--cor-red);
+    color: var(--cor-very-blue);
+    font-weight: 560;
+    padding: 12px 50px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: var(--cor-very-blue);
+    color: var(--cor-white);
+    cursor: pointer;
+}
+p{
+    color: var(--cor-dark-gray);
+    font-size: 20px;
+}
+aside h1{
+    color: var(--cor-orange);
+    font-size: 45px;
+}
+aside h3 a{
+    font-size: 25px;
+    
+}
+aside a:hover{
+    color: var(--cor-orange);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 250px 0 250px;
+    
+}
+.content{
+    margin: 20px 0 90px 0;
+    display: flex;
+    align-items: center;
+}
+section{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.coneudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.parag{
+    width: 40vh;
+    margin-right: 70px ;
+}
+.coneudo h1{
+    font-size: 56px;
+    width: 30vh;
+}
+
+aside{
+    background-color: var(--cor-very-blue);
+    color: var(--cor-white);
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 25px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 240px;
+    margin-top: -10px ;
+}
+
+footer div h2{
+    color: var(--cor-red);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+footer div h3 a{
+    text-decoration: none;
+    color: var(--cor-very-blue);
+    font-size: 25px;
+    transition: 0.5s;
+}
+footer div h3 a:hover{
+    color: var(--cor-red);
+    cursor: pointer;
+}
+footer div p {
+    margin-top: 10px;
+    
+    }
